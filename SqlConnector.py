@@ -20,7 +20,7 @@ class Connector:
         sql = '''INSERT IGNORE INTO Recipe(RecipeName,RecipeFileName)
         VALUES (%s,%s)'''
         self.cursor.execute(sql,data)
-        self.mydb.commit();
+        self.mydb.commit()
 
     def get_recipes_by_filename(self,name):
         sql = '''SELECT RecipeFileName FROM Recipe WHERE RecipeName LIKE  '%' %s '%' '''
