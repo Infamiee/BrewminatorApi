@@ -14,7 +14,10 @@ def get_recipe():
     arg = request.args.get("id")
     if arg == None:
         return "Wrong parameter",400
-    elif arg is not int:
+
+    try:
+        arg = int(arg)
+    except:
         return "Wrong parameter type",400
     try:
         filename = connector.get_recipes_by_id(arg)[0]
