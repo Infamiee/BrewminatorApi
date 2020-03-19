@@ -1,9 +1,10 @@
 from flask import Flask
 from flask import request
 from SqlConnector import Connector
-import Parser
-app = Flask ( __name__ )
 from Parser import Parser
+import json
+app = Flask ( __name__ )
+
 
 connector = Connector()
 parser = Parser()
@@ -22,6 +23,9 @@ def get_recipe():
     try:
         filename = connector.get_recipes_by_id(arg)[0]
         data = parser.get_parsed_recipe ( filename )
+        data = json.loads(data)
+        data = data["RECIPES"]["RECIPE"]
+
     except:
         return "Recipe not found", 404
     return data,200
