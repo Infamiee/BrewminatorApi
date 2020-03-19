@@ -12,14 +12,15 @@ parser = Parser()
 def get_recipe():
 
     arg = request.args.get("id")
+    if arg == None:
+        return "Wrong parameter",400
+    elif arg is not int:
+        return "Wrong parameter type",400
     try:
-
         filename = connector.get_recipes_by_id(arg)[0]
+        data = parser.get_parsed_recipe ( filename )
     except:
-        return "Recipe not found", 400
-    print(filename)
-    data =parser.get_parsed_recipe(filename)
-
+        return "Recipe not found", 404
     return data,200
 
 
