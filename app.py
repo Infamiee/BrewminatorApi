@@ -3,6 +3,7 @@ from flask import request
 from SqlConnector import Connector
 from Parser import Parser
 import json
+
 app = Flask ( __name__ )
 
 
