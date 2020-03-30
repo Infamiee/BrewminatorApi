@@ -19,15 +19,16 @@ def get_recipe():
 
     try:
         arg = int(arg)
-    except:
+    except Exception as e:
         return "Wrong parameter type",400
     try:
         filename = connector.get_recipes_by_id(arg)[0]
         data = parser.get_parsed_recipe ( filename )
-        data = json.loads(data)
-        data = data["RECIPES"]["RECIPE"]
 
-    except:
+        data = data["RECIPES"]["RECIPE"]
+        print(data)
+    except Exception as e:
+        raise e
         return "Recipe not found", 404
     return data,200
 

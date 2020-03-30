@@ -7,10 +7,10 @@ import json
 class Connector:
     def __init__(self):
         self.mydb = mysql.connector.connect (
-            host="remotemysql.com",
-            user="uNl4XTTb8s",
-            passwd="1pe5PmTX3p",
-            database="uNl4XTTb8s")
+            host="localhost",
+            user="root",
+            passwd="MEZCN0Mw",
+            database="Brewminator")
         self.cursor = self.mydb.cursor()
         self.cursor.execute('''CREATE TABLE if not exists Recipe (
                                RecipeID int AUTO_INCREMENT PRIMARY KEY ,
@@ -37,7 +37,6 @@ class Connector:
         files = [f for f in listdir ( "./static/recipes/" ) if isfile ( join ( "./static/recipes/", f ) ) and os.path.splitext ( f ) [1] == ".xml"]
         for file in files:
             data = parser.get_parsed_recipe(file)
-            data = json.loads(data)
             name =data["RECIPES"]["RECIPE"]["NAME"]
             self.update((name,file[:-4]))
 

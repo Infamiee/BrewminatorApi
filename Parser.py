@@ -11,6 +11,7 @@ class Parser:
         try:
             with open(self._path+filename+".xml","r") as f:
                 data = xmltodict.parse(f.read())
-                return json.dumps(data)
+
+                return data
         except Exception as e:
             raise e
