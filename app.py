@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,jsonify
 from flask import request
 from SqlConnector import Connector
 from Parser import Parser
@@ -31,6 +31,17 @@ def get_recipe():
         raise e
         return "Recipe not found", 404
     return data,200
+
+
+@app.route ( '/recipe/all', methods=["GET"] )
+def get_recipes():
+    recipes = connector.get_all_recipe()
+    ret = {}
+    for recipe in recipes:
+        name,file = recipe
+        ret[name] = file
+
+    return ret
 
 
 if __name__ == '__main__':

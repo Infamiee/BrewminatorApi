@@ -24,13 +24,14 @@ class Connector:
         SELECT %s, %s FROM DUAL 
     WHERE NOT EXISTS (SELECT * FROM Recipe 
       WHERE RecipeName=%s AND RecipeFileName=%s LIMIT 1)'''
-        self.cursor.execute(sql,data+data)
+        self.mydb.cursor().execute(sql,data+data)
         self.mydb.commit()
 
     def get_recipes_by_id(self,id):
         sql = '''SELECT RecipeFileName FROM Recipe WHERE RecipeID = %s '''
-        self.cursor.execute(sql,(id,))
-        return self.cursor.fetchone()
+        cursor = self.mydb.cursor()
+        cursor.execute ( sql, (id,) )
+        return cursor.fetchone()
 
     def save_all_recipes(self):
         parser = Parser()
