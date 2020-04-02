@@ -38,8 +38,12 @@ def get_recipes():
     recipes = connector.get_all_recipe()
     ret = {}
     for recipe in recipes:
-        name,file = recipe
-        ret[name] = file
+        id,name,style = recipe
+
+        ret[id] = {
+            "name":name,
+            "style":style
+        }
 
     return ret
 

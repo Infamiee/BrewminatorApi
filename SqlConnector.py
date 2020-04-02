@@ -20,10 +20,10 @@ class Connector:
 
 
     def update(self,data):
-        sql = '''INSERT IGNORE INTO Recipe(RecipeName,RecipeFileName)
-        SELECT %s, %s FROM DUAL 
+        sql = '''INSERT IGNORE INTO Recipe(RecipeName,RecipeFileName,Style)
+        SELECT %s, %s,%s FROM DUAL 
     WHERE NOT EXISTS (SELECT * FROM Recipe 
-      WHERE RecipeName=%s AND RecipeFileName=%s LIMIT 1)'''
+      WHERE RecipeName=%s AND RecipeFileName=%s AND Style =%s LIMIT 1)'''
         self.mydb.cursor().execute(sql,data+data)
         self.mydb.commit()
 
