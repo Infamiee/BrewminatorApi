@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e905a5d-09e5-46a3-aa53-2255a4f984e2" name="BREW-42 Zmiana hosta" comment="BREW-42 Zmiana hosta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/DockerFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heroku.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes.db" beforeDir="false" afterPath="$PROJECT_DIR$/recipes.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DockerFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku.yml" beforeDir="false" />
     </list>
     <list id="81ef5b6e-9867-4118-88ed-f6395fd58766" name="BREW-16 Stworzenie API do wyszukiwania przepisów" comment="BREW-16 Stworzenie API do wyszukiwania przepisów" />
     <list id="1cac07f5-0ff9-47a8-8985-17463f051e41" name="BREW-42 Dodanie https do api" comment="BREW-42 Dodanie https do api" />
@@ -294,7 +291,7 @@
       <workItem from="1585905454603" duration="270000" />
       <workItem from="1586095278592" duration="1291000" />
       <workItem from="1586172143679" duration="4000" />
-      <workItem from="1586191951313" duration="7810000" />
+      <workItem from="1586191951313" duration="8417000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <option name="clearContext" value="false" />
