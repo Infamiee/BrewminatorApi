@@ -9,7 +9,7 @@ class Parser:
     def get_parsed_recipe(self,filename):
         print(filename)
         try:
-            with open(self._path+filename+".xml","r") as f:
+            with open(self._path+filename,"r") as f:
                 data = xmltodict.parse(f.read())
 
                 return data

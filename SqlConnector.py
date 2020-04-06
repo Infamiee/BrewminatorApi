@@ -11,12 +11,15 @@ class Connector:
             user="root",
             passwd="MEZCN0Mw",
             database="Brewminator")
-        self.cursor = self.mydb.cursor()
-        self.cursor.execute('''CREATE TABLE if not exists Recipe (
+        cursor = self.mydb.cursor()
+        cursor.execute('''DROP TABLE if exists Recipe''')
+        cursor.execute('''CREATE TABLE if not exists Recipe (
                                RecipeID int AUTO_INCREMENT PRIMARY KEY ,
                                RecipeName varchar(255) NOT NULL,
-                               RecipeFileName varchar(255) NOT NULL 
+                               RecipeFileName varchar(255) NOT NULL,
+                               Style varchar(255) not null 
                                );''')
+        self.save_all_recipes()
 
 
     def update(self,data):
@@ -39,7 +42,15 @@ class Connector:
         for file in files:
             data = parser.get_parsed_recipe(file)
             name =data["RECIPES"]["RECIPE"]["NAME"]
-            self.update((name,file[:-4]))
+            style = data["RECIPES"]["RECIPE"]["STYLE"]["NAME"]
+            self.update((name,file,style))
+        self.mydb.commit ()
+
+    def get_all_recipe(self):
+        sql = '''SELECT RecipeID,RecipeName,Style FROM Recipe '''
+        cursor = self.mydb.cursor()
+        cursor.execute(sql)
+        return cursor.fetchall()
 
 
 

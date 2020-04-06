@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPES>
+ <RECIPE>
+  <NAME>Blonde Stout</NAME>
+  <VERSION>1</VERSION>
+  <TYPE>Partial Mash</TYPE>
+  <BREWER>HG Brewing</BREWER>
+  <DISPLAY_BATCH_SIZE>5.5 gal</DISPLAY_BATCH_SIZE>
+  <DISPLAY_BOIL_SIZE>4 gal</DISPLAY_BOIL_SIZE>
+  <BATCH_SIZE>20.81976479</BATCH_SIZE>
+  <BOIL_SIZE>15.14164712</BOIL_SIZE>
+  <BOIL_TIME>60</BOIL_TIME>
+  <EFFICIENCY>75</EFFICIENCY>
+  <NOTES>Based on a beer I had at Renegade Brewing in Denver, Colorado called &quot;White Queen&quot;. I adjusted the recipe slightly to give the beer more &quot;mouthfeel&quot; and also to match the style profile of a Stout (other than the SRM). I reduced the amount of Crystal to really &quot;blonde&quot; up the beer, and boosted the gravity.&#13;
+&#13;
+After removing the grains, leave the oats in the mash and bring to a boil and boil for 20 minutes, remove and do not squeeze or rinse the oats. Now add your malts and bring to a boil, stirring constantly..then begin hop schedule.&#13;
+&#13;
+I will use 1/2 cup cocoa nibs in secondary, and am guessing that this is around 4 oz. Next time I brew, I will weigh the nibs and adjust the recipe in ounces.&#13;
+&#13;
+Primary ferment for 7 days, rack onto cocoa nibs in secondary and leave 14 days. Add Gelatin 3 days prior to bottling and cold crash in fridge to clarify beer. (optional step, but really eliminates &quot;chill haze&quot;)&#13;
+&#13;
+Bottle and leave at room temp for 21 days. Chill for 3 days and enjoy.&#13;
+&#13;
+Will be like an Oatmeal Stout, without the darkness and bitterness, but with great mouthfeel, body, and maltiness of a Stout.</NOTES>
+  <PRIMARY_TEMP>21.111111111111</PRIMARY_TEMP>
+  <EST_COLOR>6.53</EST_COLOR>
+  <IBU>36.39</IBU>
+  <IBU_METHOD>Tinseth</IBU_METHOD>
+  <EST_ABV>7.86</EST_ABV>
+  <EST_OG>1.083 sg</EST_OG>
+  <EST_FG>1.023 sg</EST_FG>
+  <OG>1.083</OG>
+  <FG>1.023</FG>
+  <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+  <CARBONATION_USED>Corn Sugar</CARBONATION_USED>
+  <CARBONATION>2.2</CARBONATION>
+  <BF_PRIMING_METHOD>Corn Sugar</BF_PRIMING_METHOD>
+  <BF_PRIMING_AMOUNT></BF_PRIMING_AMOUNT>
+  <BF_CO2_LEVEL>2.2</BF_CO2_LEVEL>
+  <BF_CO2_UNIT>Volumes</BF_CO2_UNIT>
+  <URL></URL>
+  <BATCH_SIZE_MODE>f</BATCH_SIZE_MODE>
+  <YEAST_STARTER>true</YEAST_STARTER>
+  <NO_CHILL_EXTRA_MINUTES></NO_CHILL_EXTRA_MINUTES>
+  <PITCH_RATE>0.75</PITCH_RATE>
+  <FERMENTABLES>
+   <FERMENTABLE>
+    <NAME>Liquid Malt Extract - Light</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Extract</TYPE>
+    <AMOUNT>3.401942775</AMOUNT>
+    <YIELD>76.09</YIELD>
+    <COLOR>4</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN></ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>White Wheat</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Grain</TYPE>
+    <AMOUNT>0.90718474</AMOUNT>
+    <YIELD>86.96</YIELD>
+    <COLOR>2.8</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN>American</ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>Carapils (Dextrine Malt)</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Grain</TYPE>
+    <AMOUNT>0.45359237</AMOUNT>
+    <YIELD>71.74</YIELD>
+    <COLOR>1.8</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN>American</ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>Corn Sugar - Dextrose</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Sugar</TYPE>
+    <AMOUNT>0.45359237</AMOUNT>
+    <YIELD>100</YIELD>
+    <COLOR>0.5</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN></ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>Flaked Barley</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Adjunct</TYPE>
+    <AMOUNT>0.45359237</AMOUNT>
+    <YIELD>69.57</YIELD>
+    <COLOR>2.2</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN></ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>Flaked Oats</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Adjunct</TYPE>
+    <AMOUNT>0.45359237</AMOUNT>
+    <YIELD>71.74</YIELD>
+    <COLOR>2.2</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN></ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+   <FERMENTABLE>
+    <NAME>Caramel / Crystal 10L</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Grain</TYPE>
+    <AMOUNT>0.2267961848</AMOUNT>
+    <YIELD>76.09</YIELD>
+    <COLOR>10</COLOR>
+    <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+    <ORIGIN>American</ORIGIN>
+    <DIASTATIC_POWER>0</DIASTATIC_POWER>
+   </FERMENTABLE>
+  </FERMENTABLES>
+  <HOPS>
+   <HOP>
+    <NAME>Columbus</NAME>
+    <VERSION>1</VERSION>
+    <ALPHA>15</ALPHA>
+    <AMOUNT>0.0283495231</AMOUNT>
+    <USE>Boil</USE>
+    <USER_HOP_USE>Boil</USER_HOP_USE>
+    <TIME>60</TIME>
+    <FORM>Pellet</FORM>
+   </HOP>
+   <HOP>
+    <NAME>Fuggles</NAME>
+    <VERSION>1</VERSION>
+    <ALPHA>4.5</ALPHA>
+    <AMOUNT>0.0283495231</AMOUNT>
+    <USE>Boil</USE>
+    <USER_HOP_USE>Boil</USER_HOP_USE>
+    <TIME>15</TIME>
+    <FORM>Pellet</FORM>
+   </HOP>
+   <HOP>
+    <NAME>Hallertau Hersbrucker</NAME>
+    <VERSION>1</VERSION>
+    <ALPHA>4</ALPHA>
+    <AMOUNT>0.0283495231</AMOUNT>
+    <USE>Boil</USE>
+    <USER_HOP_USE>Boil</USER_HOP_USE>
+    <TIME>10</TIME>
+    <FORM>Pellet</FORM>
+   </HOP>
+  </HOPS>
+  <MISCS>
+   <MISC>
+    <NAME>Irish Moss</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Fining</TYPE>
+    <USE>Boil</USE>
+    <TIME>15</TIME>
+    <AMOUNT>0.00492892</AMOUNT>
+    <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+   </MISC>
+   <MISC>
+    <NAME>Gelatin (optional)</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Fining</TYPE>
+    <USE>Secondary</USE>
+    <TIME></TIME>
+    <AMOUNT>0.00492892</AMOUNT>
+    <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+   </MISC>
+   <MISC>
+    <NAME>Cocoa Nibs (1/2 cup in secondary)</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Flavor</TYPE>
+    <USE>Secondary</USE>
+    <TIME></TIME>
+    <AMOUNT>0.059147059128224</AMOUNT>
+    <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+   </MISC>
+   <MISC>
+    <NAME>Vanilla Bean</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Flavor</TYPE>
+    <USE>Secondary</USE>
+    <TIME></TIME>
+    <AMOUNT>1</AMOUNT>
+    <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+   </MISC>
+  </MISCS>
+  <MASH>
+   <NAME>Mash Steps</NAME>
+   <VERSION>1</VERSION>
+   <GRAIN_TEMP>20</GRAIN_TEMP>
+   <MASH_STEPS>
+    <MASH_STEP>
+     <NAME>mash grains in brewpot</NAME>
+     <VERSION>1</VERSION>
+     <TYPE>Temperature</TYPE>
+     <STEP_TIME>60</STEP_TIME>
+     <INFUSE_AMOUNT>11.35623534</INFUSE_AMOUNT>
+     <STEP_TEMP>66.666666666667</STEP_TEMP>
+    </MASH_STEP>
+    <MASH_STEP>
+     <NAME>Sparge grains in brewpot (leave oats behind), boil oats 20 min, remove oats (no sparge), boil, add all malts, top up to 3.5 gal, boil, start hop schedule.</NAME>
+     <VERSION>1</VERSION>
+     <TYPE>Temperature</TYPE>
+     <STEP_TIME></STEP_TIME>
+     <INFUSE_AMOUNT>1.89270589</INFUSE_AMOUNT>
+     <STEP_TEMP>76.666666666667</STEP_TEMP>
+    </MASH_STEP>
+   </MASH_STEPS>
+  </MASH>
+  <YEASTS>
+   <YEAST>
+    <NAME>London Ale Yeast WLP013</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Ale</TYPE>
+    <FORM>Liquid</FORM>
+    <AMOUNT>0.1</AMOUNT>
+    <PRODUCT_ID>WLP013</PRODUCT_ID>
+    <LABORATORY>White Labs</LABORATORY>
+    <ATTENUATION>71</ATTENUATION>
+    <FLOCCULATION>Medium</FLOCCULATION>
+    <MIN_TEMPERATURE>18.888888888889</MIN_TEMPERATURE>
+    <MAX_TEMPERATURE>21.666666666667</MAX_TEMPERATURE>
+   </YEAST>
+  </YEASTS>
+  <WATERS>
+   <WATER>
+    <NAME>Dublin (Dry Stout)</NAME>
+    <VERSION>1</VERSION>
+    <AMOUNT>20.81976479</AMOUNT>
+    <CALCIUM>110</CALCIUM>
+    <BICARBONATE>280</BICARBONATE>
+    <SULFATE>53</SULFATE>
+    <CHLORIDE>19</CHLORIDE>
+    <SODIUM>12</SODIUM>
+    <MAGNESIUM>4</MAGNESIUM>
+    <NOTES>Use filtered water and adjust water profile with salts to match above (Dublin Water)</NOTES>
+   </WATER>
+  </WATERS>
+  <STYLE>
+   <NAME>Experimental Beer</NAME>
+   <VERSION>1</VERSION>
+   <CATEGORY>Specialty Beer</CATEGORY>
+   <CATEGORY_NUMBER>34</CATEGORY_NUMBER>
+   <STYLE_LETTER>C</STYLE_LETTER>
+   <STYLE_GUIDE>BJCP</STYLE_GUIDE>
+   <TYPE>Other</TYPE>
+   <OG_MIN>0</OG_MIN>
+   <OG_MAX>0</OG_MAX>
+   <FG_MIN>0</FG_MIN>
+   <FG_MAX>0</FG_MAX>
+   <ABV_MIN>0</ABV_MIN>
+   <ABV_MAX>0</ABV_MAX>
+   <IBU_MIN>0</IBU_MIN>
+   <IBU_MAX>0</IBU_MAX>
+   <COLOR_MIN>0</COLOR_MIN>
+   <COLOR_MAX>0</COLOR_MAX>
+  </STYLE>
+ </RECIPE>
+</RECIPES>
